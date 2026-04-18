@@ -30,3 +30,6 @@ db.transactions_enhanced.aggregate([
   { $sort: { risk_exposure: -1 } },
   { $limit: 5 }
 ])
+
+## Documentation
+- [Full Project Report](report.pdf)
