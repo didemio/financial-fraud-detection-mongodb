@@ -23,6 +23,9 @@ This project implements a financial fraud detection system using MongoDB and doc
 ## Project Structure
 - scripts/ → MongoDB analysis script
 
+- ## Documentation
+- [Full Project Report](report.pdf)
+
 ## Sample Query
 ```javascript
 db.transactions_enhanced.aggregate([
@@ -31,5 +34,3 @@ db.transactions_enhanced.aggregate([
   { $limit: 5 }
 ])
 
-## Documentation
-- [Full Project Report](report.pdf)
